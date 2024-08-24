@@ -104,6 +104,10 @@ nav {
     margin: 0 auto;
 }
 
+.project {
+        margin-bottom: 20px; /* Adjust the value to increase or decrease the gap */
+    }
+
 /* Footer */
 footer {
     background: #333;
