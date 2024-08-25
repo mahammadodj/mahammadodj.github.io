@@ -62,10 +62,11 @@ nav {
     position: relative;
     text-align: center;
     padding: 100px 20px;
-    background-image: url('images/my-background.png') !important;
+    background-image: url('../images/my-background.png');
     background-size: cover;
     background-position: center;
     color: white;
+    min-height: 400px; /* Adjust as needed */
 }
 
 .hero-logo {
