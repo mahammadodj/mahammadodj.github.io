@@ -205,6 +205,10 @@ footer p {
     margin-bottom: 10px;
 }
 
+.project-card.rdol {
+    background-color: #287AE5; /* Dark blue background for RDOL */
+}
+
 .project-card.techlog {
     background-color: #004d80; /* Dark blue background for Techlog */
 }
