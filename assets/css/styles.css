@@ -62,7 +62,7 @@ nav {
     position: relative;
     text-align: center;
     padding: 100px 20px;
-    background-image: url('../images/my-background.jpg'); /* Corrected path */
+    background-image: url('/images/my-background.jpg');
     background-size: cover;
     background-position: center;
     color: white;
