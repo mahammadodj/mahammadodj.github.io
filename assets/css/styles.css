@@ -99,8 +99,16 @@ nav {
     font-size: 18px;
 }
 
+.btn-cv {
+    padding: 10px 20px;
+    background-color: #056C11;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+}
 
-.btn:hover {
+.btn-cv:hover {
     background-color: #007acc;
 }
 
