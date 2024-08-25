@@ -110,6 +110,32 @@ nav {
     margin: 0 auto;
 }
 
+.content-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content-section ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.content-section ul li i {
+    margin-right: 10px;
+    color: #333; /* Adjust color as needed */
+    font-size: 1.2em; /* Adjust size as needed */
+}
+
+.content-section ul li a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+.content-section ul li a:hover {
+    text-decoration: underline;
+}
+
+
 .project {
         margin-bottom: 20px; /* Adjust the value to increase or decrease the gap */
     }
