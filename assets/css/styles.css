@@ -9,8 +9,8 @@
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+/*     color: #333; */
+/*     background-color: #f4f4f4; */
     padding: 20px;
 }
 
@@ -70,7 +70,7 @@ nav {
 }
 
 .hero-logo {
-    width: 150px; /* Adjust the size as needed */
+    width: 250px; /* Adjust the size as needed */
     height: auto;
     margin-bottom: 20px;
 }
