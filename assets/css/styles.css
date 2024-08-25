@@ -57,35 +57,41 @@ nav {
 }
 
 /* Hero Section */
+/* Hero section styling */
 .hero {
+    position: relative;
     text-align: center;
-    padding: 100px 20px;
-    background: url('logo.png') no-repeat center center/cover;
-    color: #fff;
+    padding: 50px 20px;
+    background-image: url('images/my-background.jpg'); /* Replace with the path to your tech image */
+    background-size: cover;
+    background-position: center;
+    color: white;
 }
 
-.hero h1 {
-    font-size: 48px;
+.hero-logo {
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
     margin-bottom: 20px;
 }
 
+.hero h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
 .hero p {
-    font-size: 24px;
-    margin-bottom: 40px;
+    font-size: 1.2em;
+    margin-bottom: 30px;
 }
 
-.hero .btn {
+.btn {
     padding: 10px 20px;
-    background: #f4b400;
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
+    background-color: #00aaff;
+    color: white;
     border-radius: 5px;
+    text-decoration: none;
 }
 
-.hero .btn:hover {
-    background: #d09500;
-}
 
 /* Content Sections */
 .content-section {
