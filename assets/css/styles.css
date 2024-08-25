@@ -109,7 +109,10 @@ nav {
 }
 
 .btn-cv:hover {
-    background-color: #007acc;
+    background-color: #044E0C;
+}
+.btn:hover {
+    background-color: #065B7A;
 }
 
 /* Content Sections */
