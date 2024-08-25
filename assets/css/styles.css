@@ -13,6 +13,11 @@ body {
 /*     background-color: #f4f4f4; */
     padding: 20px;
 }
+body {
+    background-image: url('images/my-background.png');
+    background-size: cover;
+    background-position: center;
+}
 
 /* Navigation Bar */
 header {
