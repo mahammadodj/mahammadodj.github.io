@@ -145,3 +145,63 @@ footer p {
 .social-links a:hover {
     text-decoration: underline;
 }
+
+/* Projects section styling */
+.projects-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.projects-section h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.project-card {
+    background-color: #333;
+    color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.project-card.techlog {
+    background-color: #004d80; /* Dark blue background for Techlog */
+}
+
+.project-card.scp {
+    background-color: #800040; /* Dark purple background for SCP */
+}
+
+.project-card.wax {
+    background-color: #006633; /* Dark green background for Wax Precipitation */
+}
+
+.project-card:nth-child(odd) {
+    background-color: #2a2a2a; /* Dark gray background for other projects */
+}
+
+/* Add some animations */
+.project-card {
+    transform: translateY(0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
