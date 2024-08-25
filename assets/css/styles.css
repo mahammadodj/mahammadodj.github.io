@@ -61,8 +61,8 @@ nav {
 .hero {
     position: relative;
     text-align: center;
-    padding: 50px 20px;
-    background-image: url('images/my-background.jpg'); /* Replace with the path to your tech image */
+    padding: 100px 20px;
+    background-image: url('../images/my-background.jpg'); /* Corrected path */
     background-size: cover;
     background-position: center;
     color: white;
