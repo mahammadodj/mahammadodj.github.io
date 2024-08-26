@@ -21,8 +21,8 @@ body {
 
 /* Navigation Bar */
 header {
-/*     background: #444; */
-    background-image: url('images/my-background.png');
+    background: #032C62;
+/*     background-image: url('images/my-background.png'); */
     color: #fff;
     padding: 10px 0;
     box-shadow: 0px 4px 2px -2px green;
